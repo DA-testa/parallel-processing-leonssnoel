@@ -1,3 +1,5 @@
+# Leons Jūlijs Strupītis 13. gr 1k. 221RDB402
+
 import heapq
 
 def parallel_processing(n, m, data):
