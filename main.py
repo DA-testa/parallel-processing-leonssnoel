@@ -4,7 +4,7 @@ import heapq
 
 def parallel_processing(n, m, data):
     output = []
-    threads = [(0, i) for i in range(n)] # (time, thread index)
+    threads = [(0, i) for i in range(n)]
     heapq.heapify(threads)
 
     for job_time in data:
